@@ -11,9 +11,9 @@ $port = "5432";
 $conn = pg_connect("host=$host port=$port dbname=$db user=$user password=$password");
 
 if (!$conn) {
-    echo "❌ Conexión fallida: " . pg_last_error();
+    echo "Conexión fallida: " . pg_last_error();
 } else {
-    echo "✅ Conexión exitosa gg papa";
+    echo "Conexión exitosa gg papa";
 }
 
 
